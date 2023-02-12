@@ -1,4 +1,5 @@
 function greeter(name) {
-    return "Hi" + name;
+    return "Hi " + name;
 }
-var message = greeter('irem');
+var message = greeter('Mila <3');
+console.log(message);

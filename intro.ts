@@ -1,5 +1,7 @@
 function greeter(name:string){
-    return "Hi" + name
+    return "Hi " + name
 }
 
-let message = greeter('irem')
+let message = greeter('Mila <3')
+
+console.log(message)
