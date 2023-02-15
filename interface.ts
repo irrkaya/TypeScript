@@ -27,3 +27,11 @@ mouse.name="ATech"
 
 save2(mouse)
 
+interface PersonService{
+    save()
+}
+
+class CustomerService implements PersonService {
+    save () {        
+    }
+}
